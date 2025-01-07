@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Shashank Singh showcasing skills, projects, and experience">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+    <title>Shashank Singh | Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <header>
+            <h1>Shashank Singh</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h2>Home</h2>
+            <img src="IMG_20241024_083009_428[1].webp" alt="Shashank Singh" class="profile-photo">
+            <p>Welcome to my professional portfolio. I'm a passionate software developer with expertise in web development and Python programming. With 3+ years of experience, I specialize in creating efficient, scalable, and user-friendly applications.</p>
+            <h3>What I Do</h3>
+            <ul>
+                <li>Full-stack web development</li>
+                <li>web designing</li>
+                <li>Database optimization</li>
+                
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I'm always open to new opportunities and collaborations. Whether you have a project idea, need technical consultation, or just want to connect, feel free to reach out!</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> shashank@example.com</p>
+                <p><strong>Phone:</strong> +91 9869696969</p>
+                <p><strong>Location:</strong> mumbai, India</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shashank-singh-767346334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="Visit my LinkedIn profile">
+                        <img src="link.png" alt="LinkedIn" class="logo">
+                    </a>
+                    <a href="https://github.com/shashank-singh" target="_blank" aria-label="GitHub profile" title="Visit my GitHub profile">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo" class="logo">
+                    </a>
+                </div>
+            </div>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section id="profile">
+            <h2>Profile</h2>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li><strong>Languages:</strong> Python, JavaScript,  SQL</li>
+                <li><strong>Frameworks:</strong>  React, Node.js</li>
+                <li><strong>Databases:</strong> MySQL</li>
+                <li><strong>Tools:</strong> Git, Docker, Kubernetes, AWS</li>
+                
+            </ul>
+            
+            <h3>Professional Experience</h3>
+            <div class="experience">
+                <h4>First year student</h4>
+                <ul>
+                    <li>Led a team foe website making</li>
+                    
+                    <li>Mentored junior developers and conducted code reviews</li>
+                </ul>
+            </div>
+            
+            <div class="experience">
+                <h4>web development--(2024)</h4>
+                <ul>
+                    <li>Developed a game selling site</li>
+                    <li>Optimized games that have downloded in any platform</li>
+                    <li>https://shashanksingh.github.io/ps/</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>E-commerce Platform</h3>
+                <p>Developed a full-stack e-commerce platform with Django and React</p>
+                <ul>
+                    <li>Implemented user authentication and payment processing</li>
+                    <li>Integrated with Stripe API for secure payments</li>
+                    <li>Reduced page load time by 30% through optimization</li>
+                </ul>
+            </div>
+            
+            <div class="project">
+                <h3>Task Management System</h3>
+                <p>Created a task management system with Flask and Vue.js</p>
+                <ul>
+                    <li>Developed REST API for task management</li>
+                    <li>Implemented real-time updates using WebSockets</li>
+                    <li>Designed intuitive user interface with drag-and-drop functionality</li>
+                </ul>
+            </div>
+            
+            <!-- <div class="project">
+                <h3>web site</h3>
+                <p>Built a </p>
+                <ul>
+                    <li>Processed large datasets using Pandas and NumPy</li>
+                    <li>Created interactive visualizations with D3.js</li>
+                    <li>Deployed on AWS with auto-scaling capabilities</li>
+                </ul>
+            </div> -->
+        </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Shashank Singh. All rights reserved.</p>
+            <a href="https://www.linkedin.com/in/shashank-singh-767346334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="Visit my LinkedIn profile">
+                <img src="link.png" alt="LinkedIn logo" class="logo">
+            </a>
+            <a href="https://github.com/shashank-singh" target="_blank" aria-label="GitHub profile" title="Visit my GitHub profile">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo" class="logo">
+            </a>
+        </footer>
+    
+        
+    </div>
+    <script>
+        const form = document.getElementById('contact-form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            console.log(name, email, message);
+            // Add your logic to send the message here
+        });
+    </script>
+</body>
+</html>
